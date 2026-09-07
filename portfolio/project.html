@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">MyPortfolio</div>
+            <button class="menu-toggle" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="blogs.php">Blogs</a></li>
+                <li><a href="contact.php">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1 class="page-title">My Projects</h1>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="images/project1.jpg" alt="CNN Image Classifier" class="project-img">
+                <div class="project-content">
+                    <h3>CNN Image Classifier</h3>
+                    <p>A convolutional neural network trained to classify images, built to learn deep learning fundamentals from the ground up.</p>
+                    <p><strong>Technologies:</strong> Python, TensorFlow/Keras</p>
+                    <button class="btn project-toggle">View Details</button>
+                    <div class="project-details">
+                        <p>Covers data preprocessing, convolution/pooling layers, and evaluating accuracy on a held-out test set. Part of my "ML Learning Journey" GitHub repo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/project2.jpg" alt="LSTM/GRU Sequence Model" class="project-img">
+                <div class="project-content">
+                    <h3>LSTM/GRU Sequence Model</h3>
+                    <p>A sequence model comparing LSTM and GRU architectures for time-series and text prediction tasks.</p>
+                    <p><strong>Technologies:</strong> Python, PyTorch</p>
+                    <button class="btn project-toggle">View Details</button>
+                    <div class="project-details">
+                        <p>Explored how gating mechanisms affect training stability and compared performance/speed trade-offs between LSTM and GRU cells.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/project3.jpg" alt="Imbalanced Data Handling" class="project-img">
+                <div class="project-content">
+                    <h3>Imbalanced Data Handling</h3>
+                    <p>Applied resampling and class-weighting techniques to improve classification performance on a heavily imbalanced dataset.</p>
+                    <p><strong>Technologies:</strong> Python, scikit-learn, imbalanced-learn</p>
+                    <button class="btn project-toggle">View Details</button>
+                    <div class="project-details">
+                        <p>Compared SMOTE, undersampling, and class-weighted loss functions, evaluating with precision/recall/F1 instead of raw accuracy.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p style="text-align:center; margin-top: 20px;">See more on <a href="https://github.com/bisheshdahal/ai-ml-portfolio">GitHub</a>.</p>
+    </div>
+    <footer>
+        <p>&copy; <span data-year></span> Bishesh Dahal. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://github.com/bisheshdahal/ai-ml-portfolio">GitHub</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
